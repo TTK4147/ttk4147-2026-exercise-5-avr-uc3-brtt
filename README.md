@@ -58,10 +58,12 @@ the usb-to-serial device, letting you print to a terminal on the lab PC.
 Open the program Putty to read the serial output. Find the serial settings and
 set the baud rate to 115200, 8 data bits, 1 stop bit, no parity and no flow
 control. You can figure out which COM port it is by checking the device manager,
-or by trial and error (it's usually COM3 or COM4). In order to make the formatting correct you also have to
+or by trial and error. In order to make the formatting correct you also have to
 tick the "implicit CR in every LF" box under "Terminal" in the main menu. If
 everything works correctly, it should now print “tick” every second, if not, you
 can disconnect and connect the usb cable to the AVR32.
+
+We recommend to make a Saved session by setting your options in the configuration window, then going to the Session panel, entering a name under Saved Sessions, and clicking Save. To use it later, select the session name in the list box and click Load (or double-click the session to start it).
 
 Unfortunately the AVR32 UC3 doesn’t behave exactly as a normal serial port. The
 problem is that if you now reprogram the AVR32 from Atmel studio, the printing
