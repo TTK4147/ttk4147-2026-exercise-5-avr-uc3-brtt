@@ -19,7 +19,7 @@ AVR evaluation kit modified to test the response times for external input
 events. We will be using the BRTT in several of the next exercises, so make sure
 to save your measurements in order to compare results in later exercises.
 REMEMBER TO BACK-UP ALL YOUR DATA WHEN YOU ARE FINISHED FOR THE DAY.
-Documentation for the BRTT can be found in this repository. Do not attempt to
+Documentation for the BRTT can be found [here](https://www.itk.ntnu.no/doc/ttk4147-brtt/v5/) or in the README-file inside *brtt-documentation*. Do not attempt to
 reprogram the Butterfly, as it might give incorrect results.
 
 Please write down your answers for the questions in the tasks
